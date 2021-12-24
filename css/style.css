@@ -1,0 +1,184 @@
+body{
+    color: #40514E;
+    margin: 0 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+
+}
+
+p{
+    line-height: 2;
+}
+
+.top-container{
+    background-color: #E4F6F6;
+    padding:20px;
+
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.intro{
+    width: 40%;
+    margin:auto;
+
+
+}
+
+.contact-message{
+    width: 50%;
+    margin: 40px auto 60px;
+}
+
+.top-cloud{
+    position: relative;
+    left: 200px;
+    padding-top:90px;
+
+}
+
+.bottom-cloud{
+    position: relative;
+    bottom:200px;
+}
+
+h1{
+    color: #66BFBF;
+    font-size: 5.62rem; /*1em = 16px , 100% = 16px(dynamic, inherited fonts)
+    'rem' sets the font relative to the root hence it doesnt inherent the font size of its parents*/
+    margin: 50px auto 0 auto;
+
+    font-family: 'Sacramento', cursive;
+
+
+
+}
+
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight:bold;
+
+}
+
+hr{
+    width: 5%;
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 10px;
+    margin: 100px auto 100px auto;
+
+}
+
+
+
+
+
+#pro{
+    text-decoration: underline;
+}
+
+.skill-row{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+
+}
+.profile-pic{
+    border-radius:50%;
+    width:25%;
+}
+
+.code-image{
+    border-radius:50%;
+    width:25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.photo-image{
+    border-radius:50%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+/* .code-skill-description{
+    clear: left;
+}
+
+.photography-skill-description{
+    clear: right;
+} */
+.contact-me{
+    margin-bottom: 50px;
+
+
+}
+
+.btn{
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    width: 100%;
+
+
+}
+
+.footer-link{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #11999E;
+    margin: 10px 20px;
+    position: relative;
+    top: 10px;
+
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+
+
+}
+
+.footer-link:hover{
+    color: #EAF6F6;
+
+}
